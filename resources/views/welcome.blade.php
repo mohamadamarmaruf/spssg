@@ -49,12 +49,7 @@
     <div class="content-wrapper">
       <div class="justify-content-end d-flex">
         <div class="text-right m-2">
-          <a href="{{ url('register') }}" class=" mt-3 mb-1 p-0 pl-1 pr-1 btn-sm btn btn-primary">
-            Buat Akun</i>
-          </a>
-        </div>
-        <div class="text-right m-2">
-          <a href="{{ url('login') }}" class=" mt-3 mb-1 p-0 pl-1 pr-1 btn-sm btn btn-info">
+          <a href="{{ url('login') }}" class=" mt-3 mb-1 p-0 pl-1 pr-1 btn-md btn btn-info">
             Login Admin</i>
           </a>
         </div>
@@ -106,6 +101,11 @@
                     class="icon-circle-right2 ml-2"></i></button>
               </div>
 
+              <div class="text-center">
+                <a href="{{ url('register') }}" class="mt-3 mb-1 p-0 pl-1 pr-1 btn-md btn text-primary">
+                  Buat Akun Baru</i>
+                </a>
+              </div>
 
             </div>
           </div>
