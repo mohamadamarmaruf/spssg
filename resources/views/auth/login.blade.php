@@ -57,13 +57,6 @@
 
           <div class="card mb-0">
 
-            <div class="card-body">
-              <div class="text-center mb-3">
-                <img width="30%" src="{{ asset('/img/image.png') }}">
-                <h5 class="mb-0">SPSSG </h5>
-                <span class="d-block text-muted">Selamat Datang Admin</span>
-              </div>
-
               <div class="form-group form-group-feedback form-group-feedback-left">
                 <input type="text" name="username" value="{{ old('username') }}" class="form-control"
                   placeholder="Username">

@@ -47,13 +47,6 @@
 
     <!-- Main content -->
     <div class="content-wrapper">
-      <div class="justify-content-end d-flex">
-        <div class="text-right m-2">
-          <a href="{{ url('login') }}" class=" mt-3 mb-1 p-0 pl-1 pr-1 btn-md btn btn-info">
-            Login Admin</i>
-          </a>
-        </div>
-      </div>
       <!-- Content area -->
       <div class="content d-flex justify-content-center align-items-center">
 
